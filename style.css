@@ -287,35 +287,38 @@ flex-direction: row;
     align-items: center;
 }
 .content_containerexpe{
+    align-items: center;
     display: flex;
     flex-direction: row;
     padding: 20px;
-
 }
 .content_containertext{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 40vw;
+  width: 44.2vw;
   border-right: 2px dashed black;
 }
 .content_containertext2{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 40vw;
+    width: 45vw;
     border-left: 2px dashed black;
   }
 
 .separador{
+    align-self: center;
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    float: none;
-    top: 95vw;
-    right: 47vw;
+    margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
 }
 .bolita{
     width: 4vw;
@@ -328,7 +331,7 @@ flex-direction: row;
     margin-bottom: 100px;
 }
 .bolita_verde{
-    margin-top: 12px;
+    margin: 15px;
     width: 2vw;
     height: 2vw;
     background-color: #286f6c;
@@ -336,14 +339,14 @@ flex-direction: row;
 }
 
 .bolita_roja{
-    margin-top: 12px;
+    margin: 15px;;
     width: 2vw;
     height: 2vw;
     background-color: #f26440;
     border-radius: 50%;
 }
 .bolita_amarilla{
-    margin-top: 12px;
+    margin: 15px;
     width: 2vw;
     height: 2vw;
     background-color: #eec048;
